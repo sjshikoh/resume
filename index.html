@@ -10,8 +10,75 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <button class="btn">Education</button>
-  <a href="#" class="btn">Education</a>
+  <div class="grid grid--1x2">
+    <div>
+      <img src="images/shaista.jpeg" alt="profile picture">
+    </div>
+    <div>
+      <h1>Shaista Jawed</h1>
+      <h2>Aspiring Web Developer</h2>
+      <p class="username">Email: shaistairfan5@icloud.com</p>
+        <p class="username">Phone: 03051251462</p>
+    </div>
+  </div>
+  <div>
+  <button class="btn" id="education--button"><a href="#education-section" class="btn"></a>Education</a></button>
+  <button class="btn" id="skills--button"><a href="#skills-section" class="btn"></a>Skills</a></button>
+  <button class="btn" id="project--button"><a href="#project-section" class="btn"></a>Projects</a></button>
+  <button class="btn" id="work--button"><a href="#work-section" class="btn"></a>Work</a></button>
+  </div>
+  <section id="education-section" class="collapsible">
+    
+    <div class="education collapsible__content">
+      <header class="education__header"><h2>Education</h2></header>
+      <div class="education__body">
+        <p><strong>Bachelor of commerce(B-Com)</strong></p>
+              <p>Karachi University, 1995</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- Skills-->
+   <section id="skills-section" class="collapsible">
+    <div class="collapsible__content">
+      <header class="skills__header"><h2>Skills</h2></header>
+      <div class="skills__body">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>TypeScript</li>
+        </ul>  
+      </div>
+    </div>
+   </section>
+   <!--project section-->
+   <section id="projects-section" class="collapsible">
+    <div class="collapsible__content">
+      <header class="project__header"><h2>Projects</h2></header>
+      <div class="project__body">
+        <div class="projects-grid">
+          <p>Here I'm sharing some of my Projects</p>
+          <a href="https://github.com/sjshikoh/Atm"
+            ><img class="project-image" src="images/atm.png" />
+            <p class="project-tile">Atm App</p></a>
+          </div>
+        </div>
+      </div>
+  </section>
+    <section id="work-section" class="experience collapsible">
+    <!--Work Experience Section-->>
+    <div class="collapsible__content">
+      <header class="work__header">
+        <h2>Work Experience</h2>
+      </header>
+          <div class="work__body">
+            <p>Searching for opportunities</p>
+          </div>
+    </div>
+          
+    </section>
+   
+  </div>
 </body>
 </html>
      
