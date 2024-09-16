@@ -12,7 +12,7 @@
 <body>
   
   <section class="block block--dark hero">
-    <div class="container grid grid-1x2">
+    <div class="container grid grid--1x2">
         <img class="hero__image" src="images/shaista.jpeg" alt="profile picture">
         <header class="block__header hero__content">
          <h1 class="block__heading">Shaista Jawed</h1>  
@@ -30,37 +30,36 @@
       <button class="toggle-btn collapsible" id="project--button" type="project"><a href="#projects-section">Projects</a></button>
       <button class="toggle-btn collapsible" id="work--button" type="work"><a href="#work-experience">Work</a></button>
     </div>
-  <section id="education-section" class="collapsible">
+  <section id="education-section" class="collapsible detail">
     
-    <div class="education collapsible__content">
+    <div class="collapsible__content">
       <header class="education__header"><h2>Education</h2></header>
       <div class="education__body">
-        <p><strong>Bachelor of commerce(B-Com)</strong></p>
-              <p>Karachi University, 1995</p>
+        <p><strong><h3>Bachelor of commerce(B-Com)</h3></strong></p>
+              <p><h3>Karachi University, 1995</h3></p>
       </div>
-
     </div>
   </section>
   <!-- Skills-->
-   <section id="skills-section" class="collapsible">
+   <section id="skills-section" class="collapsible detail">
     <div class="collapsible__content">
       <header class="skills__header"><h2>Skills</h2></header>
       <div class="skills__body">
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>TypeScript</li>
+          <li class="list__items"><h3>HTML</h3></li>
+          <li class="list__items"><h3>CSS</h3></li>
+          <li class="list__items"><h3>TypeScript</h3></li>
         </ul>  
       </div>
     </div>
    </section>
    <!--project section-->
-   <section id="projects-section" class="collapsible">
+   <section id="projects-section" class="collapsible detail">
     <div class="collapsible__content">
       <header class="project__header"><h2>Projects</h2></header>
       <div class="project__body">
         <div class="projects-grid">
-          <p>Here I'm sharing some of my Projects</p>
+          <p><h3>Here I'm sharing some of my Projects</h3></p>
           <a href="https://github.com/sjshikoh/Atm"
             ><img class="project-image" src="images/atm.png" />
             <p class="project-tile">Atm App</p></a>
@@ -68,24 +67,21 @@
         </div>
       </div>
   </section>
-    <section id="work-section" class="experience collapsible">
-    <!--Work Experience Section-->>
+    <section id="work-section" class="collapsible detail">
+    <!--Work Experience Section-->
     <div class="collapsible__content">
       <header class="work__header">
         <h2>Work Experience</h2>
       </header>
           <div class="work__body">
-            <p>Searching for opportunities</p>
+            <p><h3>Searching for opportunities</h3></p>
           </div>
-    </div>
-          
-    </section>
-   
+    </div>       
+    </section> 
   </div>
+  <footer>created by Shaista Jawed</footer>
 </body>
-</html>
-     
-    
+</html> 
     <!--Toggle Button-->
     <script src="script.js"></script>
   </body>
