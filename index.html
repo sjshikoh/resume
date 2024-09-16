@@ -10,23 +10,26 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="grid grid--1x2">
-    <div>
-      <img src="images/shaista.jpeg" alt="profile picture">
+  
+  <section class="block block--dark hero">
+    <div class="container grid grid-1x2">
+        <img class="hero__image" src="images/shaista.jpeg" alt="profile picture">
+        <header class="block__header hero__content">
+         <h1 class="block__heading">Shaista Jawed</h1>  
+         <h2 class="block__heading">Aspiring Web Developer</h2>
+      <p class="hero__tagline">Email: shaistairfan5@icloud.com</p>
+        <p class="hero__tagline">Phone: 03051251462</p> 
+        </header>
     </div>
-    <div>
-      <h1>Shaista Jawed</h1>
-      <h2>Aspiring Web Developer</h2>
-      <p class="username">Email: shaistairfan5@icloud.com</p>
-        <p class="username">Phone: 03051251462</p>
+</section>
+       
+     <!-- Personal information-->
+     <div class="btn">
+      <button class="toggle-btn collapsible" id="education--button" type="education"><a href="#education-section">Education</a></button>
+      <button class="toggle-btn collapsible" id="skills--button" type="skills"><a href="#skills-section">Skills</a></button>
+      <button class="toggle-btn collapsible" id="project--button" type="project"><a href="#projects-section">Projects</a></button>
+      <button class="toggle-btn collapsible" id="work--button" type="work"><a href="#work-experience">Work</a></button>
     </div>
-  </div>
-  <div>
-  <button class="btn" id="education--button"><a href="#education-section" class="btn"></a>Education</a></button>
-  <button class="btn" id="skills--button"><a href="#skills-section" class="btn"></a>Skills</a></button>
-  <button class="btn" id="project--button"><a href="#project-section" class="btn"></a>Projects</a></button>
-  <button class="btn" id="work--button"><a href="#work-section" class="btn"></a>Work</a></button>
-  </div>
   <section id="education-section" class="collapsible">
     
     <div class="education collapsible__content">
